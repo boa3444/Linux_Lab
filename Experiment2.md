@@ -24,13 +24,13 @@ mkdir data
 echo "Just an example"
 
 # Test2 snippets
-~![Snippet of mkdir to make folders1] (C:\Users\newon\VirtualBox VMs\Ubuntu\code1.png)
-~![Snippet of mkdir to make folders2] (C:\Users\newon\VirtualBox VMs\Ubuntu\code2.png)
-~![Snippet of mkdir to make folders3] (C:\Users\newon\VirtualBox VMs\Ubuntu\code3.png)
-~![Snippet of mkdir to make folders4] (C:\Users\newon\VirtualBox VMs\Ubuntu\code4.png)
+![Snippet of mkdir to make folders1](C:\Users\newon\VirtualBox VMs\Ubuntu\code1.png)
+![Snippet of mkdir to make folders2](C:\Users\newon\VirtualBox VMs\Ubuntu\code2.png)
+![Snippet of mkdir to make folders3](C:\Users\newon\VirtualBox VMs\Ubuntu\code3.png)
+![Snippet of mkdir to make folders4](C:\Users\newon\VirtualBox VMs\Ubuntu\code4.png)
 
 
-~![Snippet of output] (C:\Users\newon\VirtualBox VMs\Ubuntu\lastcode.png)
+![Snippet of output] (C:\Users\newon\VirtualBox VMs\Ubuntu\lastcode.png)
 
 
  
