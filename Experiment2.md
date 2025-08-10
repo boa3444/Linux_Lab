@@ -30,7 +30,7 @@ echo "Just an example"
 ![Snippet of mkdir to make folders4](images/code3.png)
 
 
-![Snippet of output] (images/lastcode.png)
+![Snippet of output](images/lastcode.png)
 
 
  
