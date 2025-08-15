@@ -27,7 +27,7 @@ Flag -a list down all file and folder including the ones that are hidden.
 >ls -la   
 
 **Output of ls -la:**
-#image
+![USING THESE COMMANDS IN CODE](images/command1.png)
 
 
 
