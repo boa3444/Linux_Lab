@@ -10,6 +10,7 @@ Example:
 sudo apt install git
 sudo apt update
 ```
+![Application](images/Command2.png)
 
 # 2. User Management commands  
 
@@ -19,17 +20,20 @@ sudo apt update
 sudo add username
 ```
 You will have to set up the password and other prominent stuff in this step.
-
+![Application](images/Command13.png)
 ### 2. `passwd` command
 ``` bash
 sudo passwd username
+
 ```
+![Application](images/Command3.png)
 ### 3. `usermod` command: To modify the user's settings
 To add a username to a groupname
 
 ```bash
 sudo usermod -aG groupname username
 ```
+
 ### 4. `deluser` 
 This deletes the user but not completely:
 ```bash
@@ -40,7 +44,7 @@ To completely remove the user's home directory, files etc:
 ```bash
 sudo deluser --remove-home username
 ```
-
+![Application](images/Command4.png)
 # 3. File Permissions with `chmod` and `chown` commands
 ### 1. `chmod` – Change File Permissions
 ```bash
@@ -63,6 +67,8 @@ Reference for numbers:
  4  ➡️ read only              
  0  ➡️ no permission  
 
+ ![Application](images/Command5.png)
+
 ### 2. `chown` – Change File Owner
 Syntax:
 ```bash
@@ -72,6 +78,7 @@ Example:
 ```bash
 chown divi myfile.txt
 ```
+![Application](images/Command6.png)
 
 # 4. Disk Usage & System Info
 ### 1.`df` – Disk Space Usage
@@ -82,10 +89,12 @@ syntax:
 df –h
 ```
 
+
 ### 2. `du` - Directory Size
 displays the folder size
 syntax:  
 du -sh folder_name
+![Application](images/Command7.png)
 
 ### 3.`top` command
 for monitoring system processes and resource usage in real-time.  
@@ -100,6 +109,7 @@ Alternate command:
 ```bash
 htop
 ```
+![Application](images/Command8.png)
 # 5. Networking Commands
 ### 1. `ping` – Check Network Connectivity
 
@@ -108,6 +118,7 @@ Example:
 ping youtube.com
 ```
 **NOTE** : Press `Ctrl` + `C` to quit.
+![Application](images/Command9.png)
 ### 2. `netstat` – Show Active Network Connections
 Syntax:
 ```bash
@@ -117,7 +128,7 @@ netstat -tuln
 ```bash
 ss -tuln
 ```
-
+![Application](images/Command10.png)
 ### 3. `ifconfig` or `ip` a – Show IP Address & Network Info.
 syntax:  
 ```bash
@@ -126,6 +137,7 @@ ip a
 ```bash
 ifconfig
 ```
+![Application](images/Command11.png)
 
 # 6. Package Management
 For Ubuntu/Debian (APT):
@@ -140,7 +152,7 @@ Syntax:
 ``` bash
 ps aux
 ```
-
+![Application](images/Command12.png)
 ### 2.`kill` – Kill a Process
 Syntax:
 ```bash
@@ -157,4 +169,5 @@ Syntax:
     sudo shutdown now        
     sudo shutdown -r now 
 ```
+
 
