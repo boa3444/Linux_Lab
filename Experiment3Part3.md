@@ -133,3 +133,5 @@ Syntax:
 sudo deluser --remove-home username
 ```
 
+![Application of commands](images/Command4.png)
+
