@@ -18,6 +18,7 @@ Privileges: Can access, modify, and delete any file, even system files.
 `Privileges`: They are restricted by permissions (e.g., they can’t access or modify files owned by the root user unless granted explicit permission).  
 ### 3.System User
 
+
 `UID`: Typically lower than 1000.  
 `Role`: Used by system services and processes. These users don't log in directly, but are associated with daemons or background services like www-data (for web servers) or mysql (for the MySQL service).  
 `Privileges`: Limited access for service operation purposes. 
@@ -64,24 +65,27 @@ Syntax:
 ```
 sudo usermod -aG groupname username
 ```
-
+![Application](images/command15.png)
 **Change User's Primary Group**  
 For this, use the usermod command with the -g option.
 Syntax:
 ```
 sudo usermod -g newgroup username
 ```
+![Application](images/command16.png)
 **List All the users in the system**  
 Syntax:  
 ```
 cat /etc/passwd
 ```
+![Application](images/command17.png)
 
 **List All the groups in the system**  
 Syntax:  
 ```
 cat /etc/group
 ```
+![Application](images/command18.png)
 ## 4. File Permissions and Groups
 
 **These permissions control who can read, write, or execute a file.**
@@ -114,6 +118,7 @@ Syntax:
 id username
 ```
 This will show the UID, GID, and the groups that alice is part of.
+![Application](images/command14.png)
 
 ## 6. Special Groups in Linux
 `sudo` or `wheel group`: Members of this group have the ability to run commands as the root user using sudo.  
