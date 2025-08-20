@@ -75,7 +75,7 @@ chown newon:group2 data.txt
 Meaning:
 Change ownership to newon and group to group2
 ```
-##Imagee
+![Image](images/chown.png)
 
 ## 4. Combination of all concepts.
 ```bash
@@ -83,3 +83,6 @@ chmod 700 project.sh
 chmod u+x,g-w project.sh   
 chown root:admin project.sh
 ```
+
+![Image](images/final_lab5.png)
+
