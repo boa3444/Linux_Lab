@@ -55,7 +55,7 @@ Use u (user/owner), g (group), o (others), a (all). Operators:
 + `-`→ Remove permission
 + `=`→ Assign exact permission  
 
-![Image](images/symbolic_chmod.png)
+![Image](images/chmode_symb.png)
 
 ### (C) Recursive Changes
 `chmod -R 755 /mydir`
