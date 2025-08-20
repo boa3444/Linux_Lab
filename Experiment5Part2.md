@@ -17,7 +17,7 @@ x → Execute (1 in numeric)
 ls -la
 Output : -rwxr-xr--
 ```
-![Image]()
+![USING THESE COMMANDS IN CODE](images/command1.png)
 
 ## 2. chmod – Change File Permissions
 
