@@ -61,6 +61,7 @@ Use u (user/owner), g (group), o (others), a (all). Operators:
 `chmod -R 755 /mydir`
 
 **`-R` → applies changes recursively to all files/subdirectories.**  
+![Image](images/recusrion.png)
 
 ## 3. `chown` – Change File Ownership
 Syntax:  
