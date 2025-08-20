@@ -47,7 +47,7 @@ Add them up:
 0 = ---
   
 ```
-
+![Image](images/chmod_numeric.png)
 ### (B) Symbolic Method
 Use u (user/owner), g (group), o (others), a (all). Operators:
 
