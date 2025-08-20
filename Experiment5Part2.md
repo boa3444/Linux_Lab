@@ -17,7 +17,7 @@ x → Execute (1 in numeric)
 ls -la
 Output : -rwxr-xr--
 ```
-##IMage
+![Image]()
 
 ## 2. chmod – Change File Permissions
 
@@ -55,7 +55,7 @@ Use u (user/owner), g (group), o (others), a (all). Operators:
 + `-`→ Remove permission
 + `=`→ Assign exact permission  
 
-#IMagee
+![Image](images/symbolic_chmod.png)
 
 ### (C) Recursive Changes
 `chmod -R 755 /mydir`
