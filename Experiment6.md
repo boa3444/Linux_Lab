@@ -127,7 +127,7 @@ do
     echo "Iteration $i"
 done
 ```
-
+![Image](images/for_loop.png)
 ### While loop
 
 ```bash
@@ -138,7 +138,7 @@ do
     ((count++))   # increment
 done
 ```
-
+![Image](images/while_loop.png)
 ### Until loop
 
 Runs until condition becomes true.
@@ -151,7 +151,7 @@ do
     ((x++))
 done
 ```
-
+![Image](images/until_loop.png)
 ---
 
 ## 6. 🔹 Functions
@@ -175,7 +175,7 @@ Hello, World
 ```
 
 ---
-
+![Image](images/fucntion.png)
 ## 7. 🔹 Command Line Arguments
 
 Access arguments passed to script:
@@ -220,7 +220,7 @@ done
 ```
 
 ---
-
+![Image](images/for_loop.png)
 ## 9. 🔹 Useful Commands in Scripts
 
 * `date` → show current date/time
