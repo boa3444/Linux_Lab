@@ -27,7 +27,7 @@ Output:
 ```
 Hello, World!
 ```
-#IMAGE
+
 ---
 
 ## 2. 🔹 Variables
@@ -52,9 +52,9 @@ echo "My name is $name and I am $age years old."
 Output:
 
 ```
-My name is Vibhu and I am 37 years old.
+My name is Divyanshi and I am 17 years old.
 ```
-#IMAGE
+
 ### Environment variables
 
 ```bash
@@ -62,7 +62,7 @@ echo $HOME   # home directory
 echo $USER   # current user
 echo $PWD    # present working directory
 ```
-#IMAGE
+![Ouput of above three commands](images/echo_code.png)
 ---
 
 ## 3. 🔹 User Input
@@ -77,7 +77,10 @@ echo "You chose $lang"
 ```
 
 ---
-#Image
+CODE:
+![Image](images/echo_input.png)
+OUTPUT:
+![Image](images/user_input.png)
 
 ## 4. 🔹 Conditional Statements (if-else)
 
@@ -102,7 +105,7 @@ Operators:
 * `-le` (less or equal)
 
 ---
-
+![Image](images/if_else.png)
 ## 5. 🔹 Loops
 
 ### For loop
