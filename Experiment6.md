@@ -1,8 +1,8 @@
-# 🐚 Shell Scripting Tutorial!!
 
 
 
-## 1. 🔹 What is a Shell Script?
+
+## 1.  What is a Shell Script?
 
 * A **shell** is a command-line interpreter (e.g., `bash`, `zsh`, `sh`).
 * A **shell script** is a text file with a series of commands.
@@ -10,15 +10,10 @@
 
 **Example: `hello.sh`**
 
-```bash
-#!/bin/bash
-echo "Hello, World!"
-```
 
-Run it:
 
 ```bash
-chmod +x hello.sh   # make it executable
+chmod 777 hello.sh   # make it executable
 ./hello.sh
 ```
 
@@ -41,7 +36,6 @@ name="Vibhu"
 age=37
 ```
 
-⚠️ No spaces around `=`.
 
 ### Accessing variables
 
