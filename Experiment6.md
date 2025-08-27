@@ -105,7 +105,9 @@ Operators:
 * `-le` (less or equal)
 
 ---
-![Image](images/if_else.png)
+![Image](images/if_else.png)  
+OUTPUT:  
+![Image](images/6lab.png)
 ## 5. 🔹 Loops
 
 ### For loop
