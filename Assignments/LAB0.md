@@ -7,15 +7,15 @@ Oracle VirtualBox
 # Installation screenshots:  
 
 
-![Installation]([Ass_img/1.png](https://github.com/boa3444/Linux_Lab/blob/e53befa0ed76f271b83cd120ac7a423b3afbdcf4/Ass_img/1.png))  
-![Installation]([Ass_img/2.png](https://github.com/boa3444/Linux_Lab/blob/e53befa0ed76f271b83cd120ac7a423b3afbdcf4/Ass_img/2.png))  
-![Installation]([Ass_img/3.png](https://github.com/boa3444/Linux_Lab/blob/e53befa0ed76f271b83cd120ac7a423b3afbdcf4/Ass_img/3.png))   
-![Installation]([Ass_img/9.png](https://github.com/boa3444/Linux_Lab/blob/e53befa0ed76f271b83cd120ac7a423b3afbdcf4/Ass_img/9.png))  
+![Installation](https://github.com/boa3444/Linux_Lab/blob/e53befa0ed76f271b83cd120ac7a423b3afbdcf4/Ass_img/1.png)  
+![Installation](https://github.com/boa3444/Linux_Lab/blob/e53befa0ed76f271b83cd120ac7a423b3afbdcf4/Ass_img/2.png)    
+![Installation](https://github.com/boa3444/Linux_Lab/blob/e53befa0ed76f271b83cd120ac7a423b3afbdcf4/Ass_img/3.png)   
+![Installation](https://github.com/boa3444/Linux_Lab/blob/e53befa0ed76f271b83cd120ac7a423b3afbdcf4/Ass_img/9.png)  
 
 # Setup screenshots:  
-![Installation]([Ass_img/11.png](https://github.com/boa3444/Linux_Lab/blob/e53befa0ed76f271b83cd120ac7a423b3afbdcf4/Ass_img/11.png))  
-![Installation]([Ass_img/12.png]https://github.com/boa3444/Linux_Lab/blob/e53befa0ed76f271b83cd120ac7a423b3afbdcf4/Ass_img/12.png)  
-![Installation]([Ass_img/13.png](https://github.com/boa3444/Linux_Lab/blob/e53befa0ed76f271b83cd120ac7a423b3afbdcf4/Ass_img/13.png))  
+![Installation](https://github.com/boa3444/Linux_Lab/blob/e53befa0ed76f271b83cd120ac7a423b3afbdcf4/Ass_img/11.png)   
+![Installation](https://github.com/boa3444/Linux_Lab/blob/e53befa0ed76f271b83cd120ac7a423b3afbdcf4/Ass_img/12.png)    
+![Installation](https://github.com/boa3444/Linux_Lab/blob/e53befa0ed76f271b83cd120ac7a423b3afbdcf4/Ass_img/13.png)  
 
 # First Login:
 ![Installation](https://github.com/boa3444/Linux_Lab/blob/e53befa0ed76f271b83cd120ac7a423b3afbdcf4/Ass_img/6.png)  
