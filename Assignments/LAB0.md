@@ -36,5 +36,18 @@ free -m (memory usage).
 ![Installation](https://github.com/boa3444/Linux_Lab/blob/7660001da93ac7b43f1fe3c52652d8eb3419b538/Ass_img/8.png)   
 
 # Challenges I faced during installation:
-1. The ubuntu download took a lot of time since I downloaded it from web.
-2. Setting up configurations were pretty detail-oriented.
+1. The ubuntu download took a lot of time since I downloaded it from web.  
+2. Setting up configurations were pretty detail-oriented.  
+
+# Extra Questions:
+What are two advantages of installing Ubuntu in VirtualBox?
+``` bash
+1. Its is handy and i can switch between windows and linux any time.
+2. It is fast and versatile.
+```
+
+What are two advantages of dual booting instead of using a VM?
+``` bash
+1. More superior performance.  
+2. Full hardware access.  
+```
