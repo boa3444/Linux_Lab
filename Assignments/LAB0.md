@@ -1,8 +1,8 @@
 # Installation method chosen:
 
-'''bash
-Oracle VirtualBox
-'''  
+```bash  
+Oracle VirtualBox  
+```   
 
 # Installation screenshots:  
 
