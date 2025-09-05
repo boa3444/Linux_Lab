@@ -17,7 +17,7 @@ Output: -rwxr-xr--
 - `w` → Write (numeric value: 2)  
 - `x` → Execute (numeric value: 1)  
 
-![USING THESE COMMANDS IN CODE](images/command1.png)  
+![USING THESE COMMANDS IN CODE](https://github.com/boa3444/Linux_Lab/blob/bd211f01017d54ae44f26c32e84e040abc32618f/images/command1.png)  
 
 ---
 
@@ -42,10 +42,10 @@ chmod u+x file.txt
 
 
 # Numeric method:
-![Image](images/chmod_numeric.png)  
+![Image](https://github.com/boa3444/Linux_Lab/blob/bd211f01017d54ae44f26c32e84e040abc32618f/images/chmod_numeric.png)  
 
 # Symbolic method:
-![Image](images/chmode_symb.png)  
+![Image](https://github.com/boa3444/Linux_Lab/blob/bd211f01017d54ae44f26c32e84e040abc32618f/images/chmode_symb.png)  
 
 # Recursive Permission Changes
 
@@ -58,7 +58,7 @@ chmod -R 755 /mydir
 - `-R` → Recursive flag
 
  
-![Image](images/recusrion.png)  
+![Image](https://github.com/boa3444/Linux_Lab/blob/bd211f01017d54ae44f26c32e84e040abc32618f/images/recusrion.png)  
 
 ### Command : `chown`
 -Changing File Ownership
@@ -78,7 +78,7 @@ chown newon:group2 data.txt
 **Explanation:**  
 Assigns ownership of `data.txt` to user `newon` and group `group2`.
 
-![Image](images/chown.png)  
+![Image](https://github.com/boa3444/Linux_Lab/blob/bd211f01017d54ae44f26c32e84e040abc32618f/images/chown.png)  
 
 ---
 
@@ -90,7 +90,7 @@ chmod u+x,g-w project.sh     # Add execute for user, remove write for group
 chown root:admin project.sh  # Change owner to root and group to admin
 ```
 
-![Image](images/final_lab5.png)  
+![Image](https://github.com/boa3444/Linux_Lab/blob/bd211f01017d54ae44f26c32e84e040abc32618f/images/final_lab5.png)  
 
 ### Commands used: `nano` , `echo`  
 `nano`-Create and edit shell scripts   
