@@ -7,19 +7,19 @@ Oracle VirtualBox
 # Installation screenshots:  
 
 
-![Installation](Ass_img/1.png)  
-![Installation](Ass_img/2.png)  
-![Installation](Ass_img/3.png)   
-![Installation](Ass_img/9.png)  
+![Installation]([Ass_img/1.png](https://github.com/boa3444/Linux_Lab/blob/e53befa0ed76f271b83cd120ac7a423b3afbdcf4/Ass_img/1.png))  
+![Installation]([Ass_img/2.png](https://github.com/boa3444/Linux_Lab/blob/e53befa0ed76f271b83cd120ac7a423b3afbdcf4/Ass_img/2.png))  
+![Installation]([Ass_img/3.png](https://github.com/boa3444/Linux_Lab/blob/e53befa0ed76f271b83cd120ac7a423b3afbdcf4/Ass_img/3.png))   
+![Installation]([Ass_img/9.png](https://github.com/boa3444/Linux_Lab/blob/e53befa0ed76f271b83cd120ac7a423b3afbdcf4/Ass_img/9.png))  
 
 # Setup screenshots:  
-![Installation](Ass_img/11.png)  
-![Installation](Ass_img/12.png)  
-![Installation](Ass_img/13.png)  
+![Installation]([Ass_img/11.png](https://github.com/boa3444/Linux_Lab/blob/e53befa0ed76f271b83cd120ac7a423b3afbdcf4/Ass_img/11.png))  
+![Installation](https://github.com/boa3444/Linux_Lab/blob/e53befa0ed76f271b83cd120ac7a423b3afbdcf4/Ass_img/12.png)  
+![Installation]([Ass_img/13.png](https://github.com/boa3444/Linux_Lab/blob/e53befa0ed76f271b83cd120ac7a423b3afbdcf4/Ass_img/13.png))  
 
 # First Login:
-![Installation](Ass_img/6.png)  
-![Installation](Ass_img/7.png)   
+![Installation](https://github.com/boa3444/Linux_Lab/blob/e53befa0ed76f271b83cd120ac7a423b3afbdcf4/Ass_img/6.png)  
+![Installation](https://github.com/boa3444/Linux_Lab/blob/7660001da93ac7b43f1fe3c52652d8eb3419b538/Ass_img/home.png)   
 
 
 # Terminal outputs of the given commands.
@@ -33,7 +33,7 @@ df -h (disk usage).
 free -m (memory usage).
 
 ```
-![Installation](Ass_img/8.png)   
+![Installation](https://github.com/boa3444/Linux_Lab/blob/7660001da93ac7b43f1fe3c52652d8eb3419b538/Ass_img/8.png)   
 
 # Challenges I faced during installation:
 1. The ubuntu download took a lot of time since I downloaded it from web.
