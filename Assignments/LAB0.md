@@ -3,10 +3,44 @@
 ```bash  
 Oracle VirtualBox  
 ```   
+#  Ubuntu Installation in VirtualBox
+
+## Objective
+To install and configure Ubuntu within a virtualized environment using Oracle VirtualBox, enabling safe experimentation and development without altering the host operating system.
+
+## Tools Used
+- **Host OS**: Windows 11  
+- **Virtualization Software**: Oracle VirtualBox  
+- **Guest OS**: Ubuntu (Latest LTS ISO image)
+
+## Installation Steps
+
+### 1. Virtual Machine Setup
+- Created a new VM in VirtualBox and selected **Linux → Ubuntu (64-bit)** as the OS type.
+- Allocated **4 GB RAM** and **20 GB virtual hard disk** (VDI, dynamically allocated) for optimal performance.
+
+### 2. ISO Boot Configuration
+- Mounted the official Ubuntu ISO file as the virtual optical disk.
+- Booted the VM and initiated the Ubuntu installation process.
+
+### 3. Ubuntu Installation
+- Selected **Normal Installation** to include essential software and GUI tools.
+- Configured keyboard layout, timezone, and user credentials.
+- Chose **Erase disk and install Ubuntu** (within VM only) to format the virtual drive safely.
+
+### 4. Post-Installation Enhancements
+- Installed **VirtualBox Guest Additions** to enable:
+  - Clipboard sharing between host and guest
+  - Drag-and-drop functionality
+  - Full-screen resolution support
+
+## Outcome
+Successfully deployed a fully functional Ubuntu environment within VirtualBox. The setup supports software testing, coding, and academic experimentation in a controlled, reversible environment.
+
+## Reflection
+This installation demonstrates the power of virtualization in academic and development workflows. It allows for modular experimentation, risk-free system configuration, and efficient resource utilization.  
 
 # Installation screenshots:  
-
-
 ![Installation](https://github.com/boa3444/Linux_Lab/blob/e53befa0ed76f271b83cd120ac7a423b3afbdcf4/Ass_img/1.png)  
 ![Installation](https://github.com/boa3444/Linux_Lab/blob/e53befa0ed76f271b83cd120ac7a423b3afbdcf4/Ass_img/2.png)    
 ![Installation](https://github.com/boa3444/Linux_Lab/blob/e53befa0ed76f271b83cd120ac7a423b3afbdcf4/Ass_img/3.png)   
