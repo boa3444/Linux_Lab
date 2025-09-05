@@ -135,7 +135,7 @@ Code:
 Output:  
 ![Image](https://github.com/boa3444/Linux_Lab/blob/403f04a9ede29da23a4725c007464fbe7182689b/images/user_input.png)  
 
-### Conditional Statements (if-else)
+### Statements used : `if`, `else`  
 -provides conditional execution, allowing different blocks of code to run based on whether a condition evaluates to true or false.
 
 ``` bash
