@@ -14,7 +14,7 @@ Oracle VirtualBox
 
 # Setup screenshots:  
 ![Installation]([Ass_img/11.png](https://github.com/boa3444/Linux_Lab/blob/e53befa0ed76f271b83cd120ac7a423b3afbdcf4/Ass_img/11.png))  
-![Installation](https://github.com/boa3444/Linux_Lab/blob/e53befa0ed76f271b83cd120ac7a423b3afbdcf4/Ass_img/12.png)  
+![Installation]([Ass_img/12.png]https://github.com/boa3444/Linux_Lab/blob/e53befa0ed76f271b83cd120ac7a423b3afbdcf4/Ass_img/12.png)  
 ![Installation]([Ass_img/13.png](https://github.com/boa3444/Linux_Lab/blob/e53befa0ed76f271b83cd120ac7a423b3afbdcf4/Ass_img/13.png))  
 
 # First Login:
