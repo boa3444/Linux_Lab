@@ -41,13 +41,13 @@ chmod u+x file.txt
 - `x` → Execute (numeric value: 1)  
 
 
-# Numeric method:
+### Numeric method:
 ![Image](https://github.com/boa3444/Linux_Lab/blob/bd211f01017d54ae44f26c32e84e040abc32618f/images/chmod_numeric.png)  
 
-# Symbolic method:
+### Symbolic method:
 ![Image](https://github.com/boa3444/Linux_Lab/blob/bd211f01017d54ae44f26c32e84e040abc32618f/images/chmode_symb.png)  
 
-# Recursive Permission Changes
+### Recursive Permission Changes
 
 -Apply changes to all files and subdirectories:
 
