@@ -17,11 +17,12 @@ Output: -rwxr-xr--
 - `w` → Write (numeric value: 2)  
 - `x` → Execute (numeric value: 1)  
 
+**Code Snippet:**  
 ![USING THESE COMMANDS IN CODE](https://github.com/boa3444/Linux_Lab/blob/bd211f01017d54ae44f26c32e84e040abc32618f/images/command1.png)  
 
 ---
 
-### Command : `chmod`
+### Command : `chmod` 
 -used to modify access permissions for files and directories
 
 **Basic Syntax:**
@@ -49,7 +50,7 @@ chmod u+x file.txt
 
 ### Recursive Permission Changes
 
--Apply changes to all files and subdirectories:
+-Apply changes to all files and subdirectories.
 
 ```bash
 chmod -R 755 /mydir
@@ -57,18 +58,11 @@ chmod -R 755 /mydir
 
 - `-R` → Recursive flag
 
- 
+**Code Snippet:**  
 ![Image](https://github.com/boa3444/Linux_Lab/blob/bd211f01017d54ae44f26c32e84e040abc32618f/images/recusrion.png)  
 
 ### Command : `chown`
--Changing File Ownership
-
-### Syntax:
-
-```bash
-chown [options] new_owner:new_group filename
-```
-
+-Changes File Ownership.
 ### Example:
 
 ```bash
@@ -77,7 +71,7 @@ chown newon:group2 data.txt
 
 **Explanation:**  
 Assigns ownership of `data.txt` to user `newon` and group `group2`.
-
+**Code Snippet:**  
 ![Image](https://github.com/boa3444/Linux_Lab/blob/bd211f01017d54ae44f26c32e84e040abc32618f/images/chown.png)  
 
 ---
@@ -89,7 +83,7 @@ chmod 700 project.sh         # Full access for user only
 chmod u+x,g-w project.sh     # Add execute for user, remove write for group  
 chown root:admin project.sh  # Change owner to root and group to admin
 ```
-
+**Code Snippet:**  
 ![Image](https://github.com/boa3444/Linux_Lab/blob/bd211f01017d54ae44f26c32e84e040abc32618f/images/final_lab5.png)  
 
 ### Commands used: `nano` , `echo`  
@@ -115,7 +109,7 @@ Run it:
 Output:
 Hello, World!
 ```
-
+**Code Snippet:**  
 ![Image](https://github.com/boa3444/Linux_Lab/blob/403f04a9ede29da23a4725c007464fbe7182689b/images/echo.png)
 
 ### Command : `read`, `echo`
@@ -130,29 +124,22 @@ read username
 
 echo "Hello, $username! Welcome to shell scripting."
 ```
-Code:   
+**Code Snippet:**  
 ![Image](https://github.com/boa3444/Linux_Lab/blob/403f04a9ede29da23a4725c007464fbe7182689b/images/echo_code.png)  
-Output:  
+**Output:**   
 ![Image](https://github.com/boa3444/Linux_Lab/blob/403f04a9ede29da23a4725c007464fbe7182689b/images/user_input.png)  
 
 ### Statements used : `if`, `else`  
 -provides conditional execution, allowing different blocks of code to run based on whether a condition evaluates to true or false.
 
 ``` bash
-#!/bin/bash
-
-echo "Enter a number:"
-read num
-
-if [ $num -gt 10 ]
-then
-    echo "The number is greater than 10"
-else
-    echo "The number is 10 or smaller"
-fi
+Our code's objective:
+Checks some specified conditions with if-else.
 ```
-Output:
-![Image](https://github.com/boa3444/Linux_Lab/blob/403f04a9ede29da23a4725c007464fbe7182689b/images/if_else.png)  
+**Code Snippet:**    
+![Image](https://github.com/boa3444/Linux_Lab/blob/403f04a9ede29da23a4725c007464fbe7182689b/images/if_else.png)   
+**OUTPUT:**  
+![Image](https://github.com/boa3444/Linux_Lab/blob/82fec135ec1db3de24f12e4d6f6e1b1978cb233b/images/6lab.png)   
 ## Lab5 – PRACTICE  
 # 🧪 Practice Experiment – Creating Users and Groups
 
@@ -166,7 +153,7 @@ This section documents the commands executed during the practice experiment, alo
 5. Assign Ownership to User and Group
 6. Verify Ownership
 ```
-
+**Code Snippet:**    
 ![CODE](https://github.com/boa3444/Linux_Lab/blob/403f04a9ede29da23a4725c007464fbe7182689b/images/practice5.png)    
 **Explanation:**
 ```bash
@@ -190,8 +177,65 @@ ls -l testfile.txt
 ```
 
 ## Lab6 – Shell Scripting Basics
+### Commands include : Accessing Variables, Taking a user's input
+**To access a variable in shell scripting we prefix its name with a dollar sign**
+**We use `read` command to take a user's input**
 
+```bash
+Code
+#!/bin/bash
+echo "hi"
+name="Divyanshi"
+age=17
+echo "My name is $name and I am $age years old."
+echo $HOME
+echo "Whats your fav food:"
+read food
+echo "My fav food is $food"
+```
+---
+**Code Snippet:**    
+![Code snippet](https://github.com/boa3444/Linux_Lab/blob/82fec135ec1db3de24f12e4d6f6e1b1978cb233b/images/echo_code.png)   
+**OUTPUT:**  
+![output](https://github.com/boa3444/Linux_Lab/blob/82fec135ec1db3de24f12e4d6f6e1b1978cb233b/images/user_input.png)
 
+### Command : `for` loop  
+-control flow statement used to iterate over a list of items and execute a block of commands for each item. 
+**Code Snippet:**  
+Objective: Iterate over an array with for loop.  
+![Code snippet](https://github.com/boa3444/Linux_Lab/blob/82fec135ec1db3de24f12e4d6f6e1b1978cb233b/images/for_loop.png)
+
+### Command : `while` loop 
+-a while loop repeatedly executes a block of commands as long as a specified condition remains true.
+**Code Snippet:**  
+Objective: Looping through an array by adding +1 a variable in each iteration.  
+![Image](https://github.com/boa3444/Linux_Lab/blob/82fec135ec1db3de24f12e4d6f6e1b1978cb233b/images/while_loop.png)
+
+### Command : `until` loop 
+-The until loop in shell scripting is a control flow statement that repeatedly executes a block of commands as long as a given condition remains false.
+**Code Snippet:**  
+Objective: A chosen element from an array is getting subtracted till it becomes equal to another chosen element from the same array.  
+![Image](https://github.com/boa3444/Linux_Lab/blob/82fec135ec1db3de24f12e4d6f6e1b1978cb233b/images/until_loop.png)
+
+### Commands include: Creating funtions
+Objective of this code: To say bye to the given input. 
+**Code Snippet:**  
+![Code snippet](https://github.com/boa3444/Linux_Lab/blob/82fec135ec1db3de24f12e4d6f6e1b1978cb233b/images/function.png)  
+
+### Commands include: Iterating over the elements of an array named `fruits`
+**Code Snippet:**  
+![](https://github.com/boa3444/Linux_Lab/blob/82fec135ec1db3de24f12e4d6f6e1b1978cb233b/images/for_loop.png)
+
+### Some command line arguments:
+- Accessing the arguments passed by user in command line.
+
+**Code snippet:**
+![](https://github.com/boa3444/Linux_Lab/blob/5a24ddc6585b32eee5ba3b41267698862a9c8aa2/images/com_line.png)
+
+### Useful commands: `date`, `whoami`, `ls`, `cat`
+![](https://github.com/boa3444/Linux_Lab/blob/5a24ddc6585b32eee5ba3b41267698862a9c8aa2/images/userful.png)  
+
+### Command:
 ## Extra Questions:  
 1. What is the Difference Between `chmod` and `chown`?
 
