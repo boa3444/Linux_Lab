@@ -20,7 +20,7 @@ length="${#number[@]}"
 - **Length calculation and output**:  
   - `${number[@]}` accesses all elements of the array.  
   - `${#number[@]}` returns the total number of elements.
-  - 
+    
 ```bash
 echo "$length"
 ```
