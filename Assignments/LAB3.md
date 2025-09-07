@@ -69,8 +69,6 @@ A:
 
 Due to a limitation on the submission portal — which only allows uploading **two files** — I’ve embedded the full raw Markdown source of `LAB3.md` directly into this PDF. This ensures all three required deliverables (`enhanced_numbers.sh`, `LAB3.md`, and `LAB3.pdf`) are included and accessible for review. The content below reflects the original Markdown file exactly as written.
 
-Below is the raw Markdown source of this report, included to meet submission requirements:
-
     # Lab 3 : Modifying an Existing Script
     Objective: Enhance and customize a script.  
 
