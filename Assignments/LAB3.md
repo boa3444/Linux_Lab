@@ -67,6 +67,7 @@ A:
 
 ## 📎 Appendix: Raw Markdown Source (LAB3.md)
 To meet the submission requirements, the full raw Markdown source of this report is included below.  
+``` bash
 # Lab 3 : Modifying an Existing Script
 Objective: Enhance and customize a script.  
 
@@ -133,3 +134,4 @@ A:
 - exit 0 → Success. The script completed without issues.  
 - exit 1 (or any non-zero value) → Failure. Something went wrong, and the script exited early.
 ---
+```
