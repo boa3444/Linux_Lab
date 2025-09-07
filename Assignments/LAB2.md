@@ -25,7 +25,7 @@ length="${#number[@]}"
 echo "$length"
 ```
 - **Printing the variable `length`**  
-- `echo` prints the result: `5`.
+  - `echo` prints the result: `5`.
 
 ---
 **CODE SNIPPET (with output):**
