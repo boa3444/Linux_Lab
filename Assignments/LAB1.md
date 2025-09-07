@@ -13,10 +13,6 @@ Output: -rwxr-xr--
 - -l → Long format: shows permissions, ownership, size, and modification date  
 - -a → Includes hidden files (those starting with .  
 
-- `r` → Read (numeric value: 4)   
-- `w` → Write (numeric value: 2)  
-- `x` → Execute (numeric value: 1)  
-
 **Code Snippet:**  
 ![USING THESE COMMANDS IN CODE](https://github.com/boa3444/Linux_Lab/blob/bd211f01017d54ae44f26c32e84e040abc32618f/images/command1.png)  
 
@@ -32,14 +28,15 @@ chmod 741 file.txt
 chmod u+x file.txt
 ```
 
+- `r` → Read (numeric value: 4)   
+- `w` → Write (numeric value: 2)  
+- `x` → Execute (numeric value: 1)  
+
 **Explanation:**
 
 - `7` → User: read, write, execute  
 - `4` → Group: read only  
 - `1` → Others: execute only  
-- `r` → Read (numeric value: 4)   
-- `w` → Write (numeric value: 2)  
-- `x` → Execute (numeric value: 1)  
 
 
 ### Numeric method:
@@ -101,8 +98,8 @@ Save and exit (CTRL+O, CTRL+X in nano).
 
 Make it executable:
 chmod +x hello.sh
-Run it:
 
+Run it:
 ./hello.sh
 ```
 ```bash
@@ -112,9 +109,9 @@ Hello, World!
 **Code Snippet:**  
 ![Image](https://github.com/boa3444/Linux_Lab/blob/403f04a9ede29da23a4725c007464fbe7182689b/images/echo.png)
 
-### Command : `read`, `echo`
-read → takes input from the user.
-$username → retrieves the value.
+### Commands used : `read`, `echo`
+read → takes input from the user.  
+$username → retrieves the value.  
 
 ```bash
 #!/bin/bash
@@ -122,7 +119,7 @@ $username → retrieves the value.
 echo "Enter your name:"
 read username
 
-echo "Hello, $username! Welcome to shell scripting."
+echo "Hello, $username! Welcome to shell scripting."  
 ```
 **Code Snippet:**  
 ![Image](https://github.com/boa3444/Linux_Lab/blob/403f04a9ede29da23a4725c007464fbe7182689b/images/echo_code.png)  
@@ -140,10 +137,11 @@ Checks some specified conditions with if-else.
 ![Image](https://github.com/boa3444/Linux_Lab/blob/403f04a9ede29da23a4725c007464fbe7182689b/images/if_else.png)   
 **OUTPUT:**  
 ![Image](https://github.com/boa3444/Linux_Lab/blob/82fec135ec1db3de24f12e4d6f6e1b1978cb233b/images/6lab.png)   
+---
 ## Lab5 – PRACTICE  
 # 🧪 Practice Experiment – Creating Users and Groups
 
-This section documents the commands executed during the practice experiment, along with brief explanations and screenshots.
+This section documents the commands executed during the practice experiment, along with brief explanations and screenshots.  
 **Procedure:**
 ```bash
 1. Create a New User  
@@ -152,9 +150,9 @@ This section documents the commands executed during the practice experiment, alo
 4. Create a File
 5. Assign Ownership to User and Group
 6. Verify Ownership
-```
+```  
 **Code Snippet:**    
-![CODE](https://github.com/boa3444/Linux_Lab/blob/403f04a9ede29da23a4725c007464fbe7182689b/images/practice5.png)    
+![CODE](https://github.com/boa3444/Linux_Lab/blob/403f04a9ede29da23a4725c007464fbe7182689b/images/practice5.png)      
 **Explanation:**
 ```bash
 sudo useradd -m newuser
@@ -175,11 +173,11 @@ sudo chown newuser:newgroup testfile.txt
 ls -l testfile.txt
 -Verify Ownership
 ```
-
+---
 ## Lab6 – Shell Scripting Basics
-### Commands include : Accessing Variables, Taking a user's input
-**To access a variable in shell scripting we prefix its name with a dollar sign**
-**We use `read` command to take a user's input**
+### Commands include : Accessing Variables, Taking a user's input  
+**To access a variable in shell scripting we prefix its name with a dollar sign**  
+**We use `read` command to take a user's input**  
 
 ```bash
 Code
@@ -197,74 +195,74 @@ echo "My fav food is $food"
 **Code Snippet:**    
 ![Code snippet](https://github.com/boa3444/Linux_Lab/blob/82fec135ec1db3de24f12e4d6f6e1b1978cb233b/images/echo_code.png)   
 **OUTPUT:**  
-![output](https://github.com/boa3444/Linux_Lab/blob/82fec135ec1db3de24f12e4d6f6e1b1978cb233b/images/user_input.png)
+![output](https://github.com/boa3444/Linux_Lab/blob/82fec135ec1db3de24f12e4d6f6e1b1978cb233b/images/user_input.png)  
 
 ### Command : `for` loop  
--control flow statement used to iterate over a list of items and execute a block of commands for each item. 
+-control flow statement used to iterate over a list of items and execute a block of commands for each item.   
 **Code Snippet:**  
-Objective: Iterate over an array with for loop.  
+Objective: Iterate over an array with for loop.    
 ![Code snippet](https://github.com/boa3444/Linux_Lab/blob/82fec135ec1db3de24f12e4d6f6e1b1978cb233b/images/for_loop.png)
 
 ### Command : `while` loop 
--a while loop repeatedly executes a block of commands as long as a specified condition remains true.
+-a while loop repeatedly executes a block of commands as long as a specified condition remains true.  
 **Code Snippet:**  
 Objective: Looping through an array by adding +1 a variable in each iteration.  
-![Image](https://github.com/boa3444/Linux_Lab/blob/82fec135ec1db3de24f12e4d6f6e1b1978cb233b/images/while_loop.png)
+![Image](https://github.com/boa3444/Linux_Lab/blob/82fec135ec1db3de24f12e4d6f6e1b1978cb233b/images/while_loop.png)  
 
 ### Command : `until` loop 
--The until loop in shell scripting is a control flow statement that repeatedly executes a block of commands as long as a given condition remains false.
+-The until loop in shell scripting is a control flow statement that repeatedly executes a block of commands as long as a given condition remains false.  
 **Code Snippet:**  
 Objective: A chosen element from an array is getting subtracted till it becomes equal to another chosen element from the same array.  
-![Image](https://github.com/boa3444/Linux_Lab/blob/82fec135ec1db3de24f12e4d6f6e1b1978cb233b/images/until_loop.png)
+![Image](https://github.com/boa3444/Linux_Lab/blob/82fec135ec1db3de24f12e4d6f6e1b1978cb233b/images/until_loop.png)  
 
 ### Commands include: Creating funtions
-Objective of this code: To say bye to the given input. 
+Objective of this code: To say bye to the given input.   
 **Code Snippet:**  
-![Code snippet](https://github.com/boa3444/Linux_Lab/blob/82fec135ec1db3de24f12e4d6f6e1b1978cb233b/images/function.png)  
+![Code snippet](https://github.com/boa3444/Linux_Lab/blob/82fec135ec1db3de24f12e4d6f6e1b1978cb233b/images/function.png)    
 
 ### Commands include: Iterating over the elements of an array named `fruits`
-**Code Snippet:**  
-![](https://github.com/boa3444/Linux_Lab/blob/82fec135ec1db3de24f12e4d6f6e1b1978cb233b/images/for_loop.png)
+**Code Snippet:**    
+![](https://github.com/boa3444/Linux_Lab/blob/82fec135ec1db3de24f12e4d6f6e1b1978cb233b/images/for_loop.png)  
 
 ### Some command line arguments:
-- Accessing the arguments passed by user in command line.
+- Accessing the arguments passed by user in command line.  
 
 **Code snippet:**
-![](https://github.com/boa3444/Linux_Lab/blob/5a24ddc6585b32eee5ba3b41267698862a9c8aa2/images/com_line.png)
+![](https://github.com/boa3444/Linux_Lab/blob/5a24ddc6585b32eee5ba3b41267698862a9c8aa2/images/com_line.png)  
 
 ### Useful commands: `date`, `whoami`, `ls`, `cat`
 ![](https://github.com/boa3444/Linux_Lab/blob/5a24ddc6585b32eee5ba3b41267698862a9c8aa2/images/userful.png)  
 
-### Command:
-## Extra Questions:  
-1. What is the Difference Between `chmod` and `chown`?
+
+# Extra Questions:  
+1. What is the Difference Between `chmod` and `chown`?  
 
 | Command   | Function                                 | Affects                       |
 |-----------|------------------------------------------|-------------------------------|
 | `chmod`   | Modifies file or directory permissions   | Who can read/write/execute    |
 | `chown`   | Changes file or directory ownership      | Who owns the file and group   |
 
-- `chmod` controls **access rights** (read, write, execute).
-- `chown` controls **ownership** (user and group).
+- `chmod` controls **access rights** (read, write, execute).  
+- `chown` controls **ownership** (user and group).  
 
 ---
 
-2. How to Check Current Directory and User?
+2. How to Check Current Directory and User?  
 
---> To check your current working directory:
+--> To check your current working directory:  
 
 ```bash
 pwd
 ```
 
-**Output:** Displays the full path of your present location in the filesystem.
+**Output:** Displays the full path of your present location in the filesystem.  
 
---> To check your current user:
+--> To check your current user:  
 
 ```bash
 whoami
 ```
 
-**Output:** Displays the username of the currently logged-in user.
+**Output:** Displays the username of the currently logged-in user.  
 
 ---
