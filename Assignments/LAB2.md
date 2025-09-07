@@ -24,7 +24,7 @@ length="${#number[@]}"
 ```bash
 echo "$length"
 ```
-**Printing the variable `length`**  
+- **Printing the variable `length`**  
 - `echo` prints the result: `5`.
 
 ---
@@ -63,4 +63,4 @@ done
 **CODE SNIPPET (with output):**
 ![](https://github.com/boa3444/Linux_Lab/blob/20afd810141bdb937b01b135367083a318b95bca/images/array_range.png)
 
-
+---
