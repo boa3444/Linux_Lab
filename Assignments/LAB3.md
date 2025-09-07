@@ -66,9 +66,7 @@ A:
 ---
 
 ## 📎 Appendix: Raw Markdown Source (LAB3.md)
-To meet the submission requirements, the full raw Markdown source of this report is included below.  
-``` bash
-# Lab 3 : Modifying an Existing Script
+```# Lab 3 : Modifying an Existing Script
 Objective: Enhance and customize a script.  
 
 ## Script I used: `print_numbers.sh` from `Scripts` folder  
