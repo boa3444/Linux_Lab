@@ -1,4 +1,4 @@
-# LAB1 – Shell Programming Practice  
+# LAB1 – Linux Basics 
 This document summarizes commands executed from Lab3 and Lab5 in Unit-1, along with sample outputs and brief explanations.
 
 ## Lab5 – File Permissions and Ownership
