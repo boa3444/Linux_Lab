@@ -20,17 +20,18 @@ length="${#number[@]}"
 - **Length calculation and output**:  
   - `${number[@]}` accesses all elements of the array.  
   - `${#number[@]}` returns the total number of elements.
+  - 
 ```bash
 echo "$length"
 ```
-**Printing the length**  
+**Printing the variable `length`**  
 - `echo` prints the result: `5`.
 
 ---
 **CODE SNIPPET (with output):**
 ![](https://github.com/boa3444/Linux_Lab/blob/eb55ee990f65321e00fdc16b3bf4fa3a56544406/images/arrays_length.png)  
-
-## Script that I chose : `array_length.sh`
+---
+## Script that I chose : `print_with_range.sh`
 **Line-by-Line EXPLANATION:** 
 
 ```bash
