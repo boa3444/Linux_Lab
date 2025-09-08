@@ -1,4 +1,4 @@
-# LAB 4 – File & Backup Automation
+# LAB 5 – File & Backup Automation
 
 ## Objective
 Automate file backup for `.txt` files with timestamped filenames.
@@ -19,22 +19,16 @@ notes_20250908_232900.txt  report_20250908_232900.txt
 
 **CODE OUTPUT:**  
 ![](https://github.com/boa3444/Linux_Lab/blob/a66349f1b01ae84e095b572b3cc732615f1060c0/images/starter.png)  
-Got it, Divyanshi. Here's your example run with direct line-by-line explanations, formatted cleanly in Markdown:
 
-```markdown
-#  Bash Script Execution: Line-by-Line Explanation
+## Line by Line Exlplanation:
 
-This section documents a sample run of the `backup.sh` script, with explanations for each command and output.
-
----
-
-##  Terminal Session with Commentary
+###  Terminal Session with Commentary
 
 ```bash
 $ touch notes.txt report.txt
 ```
 
-➡Creates two empty files named `notes.txt` and `report.txt`. These are placeholder files to demonstrate the backup process.
+➡ Creates two empty files named `notes.txt` and `report.txt`. These are placeholder files to demonstrate the backup process.
 
 ```bash
 $ ./backup.sh
