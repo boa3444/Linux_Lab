@@ -1,4 +1,4 @@
-# LAB 5 – File & Backup Automation
+# LAB 4 – File & Backup Automation
 
 ## Objective
 Automate file backup for `.txt` files with timestamped filenames.
@@ -12,13 +12,13 @@ Automate file backup for `.txt` files with timestamped filenames.
 ```bash
 $ touch notes.txt report.txt
 $ ./backup.sh
-Backup completed at 20250908_232900
+Backup completed at 20240908_232900
 $ ls backup/
-notes_20250908_232900.txt  report_20250908_232900.txt
+notes_20240908_232900.txt  report_20240908_232900.txt
 ```
 
 **CODE OUTPUT:**  
-![](https://github.com/boa3444/Linux_Lab/blob/a66349f1b01ae84e095b572b3cc732615f1060c0/images/starter.png)
+![](https://github.com/boa3444/Linux_Lab/blob/a66349f1b01ae84e095b572b3cc732615f1060c0/images/starter.png)  
 
 ## Line by Line Explanation:
 
@@ -32,11 +32,11 @@ $ touch notes.txt report.txt
 
 ```bash
 $ ./backup.sh
-Backup completed at 20250908_232900
+Backup completed at 20240908_232900
 ```
 
 ➡ Runs the `backup.sh` script.  
-- The script captures the current timestamp (`20250908_232900`).  
+- The script captures the current timestamp (`20240908_232900`).  
 - It creates a `backup/` directory if it doesn't exist.  
 - It copies each file (`notes.txt`, `report.txt`) into the `backup/` directory.  
 - Each copy is renamed to include the timestamp.  
@@ -44,7 +44,7 @@ Backup completed at 20250908_232900
 
 ```bash
 $ ls backup/
-notes_20250908_232900.txt  report_20250908_232900.txt
+notes_20240908_232900.txt  report_20240908_232900.txt
 ```
 
 ➡ Lists the contents of the `backup/` directory.  
@@ -81,7 +81,7 @@ crontab -e
 To ensure reproducibility and peer learning, the full Markdown source of this lab report is included below.
 
 ````markdown
-# LAB 5 – File & Backup Automation
+# LAB 4 – File & Backup Automation
 
 ## Objective
 Automate file backup for `.txt` files with timestamped filenames.
@@ -95,13 +95,13 @@ Automate file backup for `.txt` files with timestamped filenames.
 ```bash
 $ touch notes.txt report.txt
 $ ./backup.sh
-Backup completed at 20250908_232900
+Backup completed at 20240908_232900
 $ ls backup/
-notes_20250908_232900.txt  report_20250908_232900.txt
+notes_20240908_232900.txt  report_20240908_232900.txt
 ```
 
 **CODE OUTPUT:**  
-![](https://github.com/boa3444/Linux_Lab/blob/a66349f1b01ae84e095b572b3cc732615f1060c0/images/starter.png)
+![](https://github.com/boa3444/Linux_Lab/blob/a66349f1b01ae84e094b472b3cc732614f1060c0/images/starter.png)
 
 ## Line by Line Explanation:
 
@@ -115,11 +115,11 @@ $ touch notes.txt report.txt
 
 ```bash
 $ ./backup.sh
-Backup completed at 20250908_232900
+Backup completed at 20240908_232900
 ```
 
 ➡ Runs the `backup.sh` script.  
-- The script captures the current timestamp (`20250908_232900`).  
+- The script captures the current timestamp (`20240908_232900`).  
 - It creates a `backup/` directory if it doesn't exist.  
 - It copies each file (`notes.txt`, `report.txt`) into the `backup/` directory.  
 - Each copy is renamed to include the timestamp.  
@@ -127,7 +127,7 @@ Backup completed at 20250908_232900
 
 ```bash
 $ ls backup/
-notes_20250908_232900.txt  report_20250908_232900.txt
+notes_20240908_232900.txt  report_20240908_232900.txt
 ```
 
 ➡ Lists the contents of the `backup/` directory.  
