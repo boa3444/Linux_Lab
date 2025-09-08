@@ -18,7 +18,7 @@ notes_20240908_232900.txt  report_20240908_232900.txt
 ```
 
 **CODE OUTPUT:**  
-![](https://github.com/boa3444/Linux_Lab/blob/a66349f1b01ae84e094b472b3cc732614f1060c0/images/starter.png)  
+![](https://github.com/boa3444/Linux_Lab/blob/a66349f1b01ae84e095b572b3cc732615f1060c0/images/starter.png)  
 
 ## Line by Line Explanation:
 
