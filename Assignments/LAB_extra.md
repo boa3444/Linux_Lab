@@ -59,7 +59,7 @@ project/
     └── README.md
 ```
 
-**Screenshot:**    
+**Screenshots:**    
 ![](https://github.com/boa3444/Linux_Lab/blob/3069b464de72f1d0a5db881508a30c673bd433f2/Ass_img/starter_kit.png)  
 ![](https://github.com/boa3444/Linux_Lab/blob/3069b464de72f1d0a5db881508a30c673bd433f2/Ass_img/starter_kit2.png)  
 ---
@@ -121,7 +121,7 @@ project/
     └── README.md
 ```
 
-**Screenshot:**  
+**Screenshots:**  
 *(Insert your screenshot here showing terminal output and folder tree)*
 
 ## Extra Questions
