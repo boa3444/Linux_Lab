@@ -1,70 +1,54 @@
 #!/bin/bash
 
-arr=(${@:2})
-vessel=0
-swap=0
+array=(${@:2})
 elements=$#
-limit=$((elements-2))
-#echo "$limit"
-
-for (( index = 0 ; index <= $limit ; index++)); do
-	if ! [[ ${arr[$index]} =~ ^-?[0-9]+$ ]];then
-		echo "Please only include valid numbers"
-		exit 1;
+run=$((elements - 2))
+rerun=$run
+echo "${array[*]}"
+for ((i=0;i<=$run;i++))
+do
+	if ! [[ ${array[i]} =~ ^-?[0-9]+$ ]];then
+		echo "Int only ${array[$i]}"
+		exit 1
 	fi
-	
 done
 
-echo "Our original array: (${arr[*]})"
 asc(){
-	while [ $limit -gt 0 ]; do
-		for ((i = 0 ; i < $limit ; i++));
+	while [[ $run -ne 0 ]];
+	do
+		for ((i=0;i<run;i++))
 		do
-			if [[ ${arr[i]} -gt ${arr[i+1]} ]]; then
-				vessel=${arr[i]}
-				arr[$i]=${arr[i+1]}
-				arr[$((i+1))]="$vessel"
-				
-			fi
-
-			#swap=$((swap+1))
-			if [[ $i -eq $((limit-1)) ]];then
-				limit=$((limit - 1))
-				break		
+			if [[ ${array[i]} -gt ${array[$((i+1))]} ]];then
+				t=${array[i]}
+				array[$i]=${array[$((i+1))]}
+				array[$((i+1))]=$t
 			fi
 		done
+		run=$((run-1))
 	done
-	echo "Ascended version:(${arr[*]})"
+	echo "${array[*]}"
 }
 
 desc(){
-	while [ $limit -gt 0 ]; do
-		for ((i = 0 ; i < $limit ; i++));
+	while [[ $rerun -ne 0 ]];
+	do 
+		for ((i=0;i<rerun;i++))
 		do
-			if [[ ${arr[i]} -lt ${arr[i+1]} ]]; then
-				vessel=${arr[i]}
-				arr[$i]=${arr[i+1]}
-				arr[$((i+1))]="$vessel"
-				
-			fi
-
-			#swap=$((swap+1))
-			if [[ $i -eq $((limit-1)) ]];then
-				limit=$((limit - 1))
-				break		
+			if [[ ${array[i]} -lt ${array[$((i+1))]} ]];then
+				t=${array[i]}
+				array[$i]=${array[$((i+1))]}
+				array[$((i+1))]=$t
 			fi
 		done
+		rerun=$((rerun-1))
 	done
-	echo "Desecended version:(${arr[*]})"
+	echo "${array[*]}"
 }
-#asc ${arr[*]}
-#desc ${arr[*]}
-#inforte
 
-if [ "$1" == "asc" ];then
-	asc ${arr[*]}
-
-elif [ "$1" == "desc" ];then
-	desc ${arr[*]}
-
-fi 
+if [[ $1 == "ascend" ]];then
+	asc
+elif [[ $1 == "descend" ]];then
+	desc
+else
+	echo "Type valid operation"
+fi

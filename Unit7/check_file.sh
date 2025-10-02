@@ -1,41 +1,44 @@
 #!/bin/bash
 
-if [[ $# -ne 1 ]];then
-	echo "Input only one file's or directory's name at a time"
-	exit 1 
+if [[ $# -gt  2 ]];then
+	echo "Input atleast 1 and at max 2 inputs"
+	exit 1
 fi
 
-filename=$1
-
-if [[ -e $filename ]] ; then
-	echo "File exists"
-	echo "Its absolute path: $(realpath $filename)"
-	echo "Its content:"
-	cat $filename
-	read -p "You wanna add anything to its content? (Y/N): " input2
-	if [[ $input2 == [Yy]* ]] ; then
-		cat >> $filename
-	else
-		exit 1 
-	fi
-	
-else 
-	read -p "Cant find the file/dir you mentioned. You wanna create one? (Y/N): " input
-	if [[ $input == [yY]* ]]; then
-		touch "$filename"
-		echo "Your file: '$filename' was created at $(dirname $(realpath "$filename")) in the time"
-		stat -c %y "$filename"
-		read -p "You wanna add anything to its content? (Y/N): " input2
-		if [[ $input2 == [Yy]* ]] ; then
-			cat >> $filename
+if [ -e $1 ] ;then
+	echo "Found it at $(realpath $1)"
+	echo "Its content: "
+	cat $1
+	read -p " Could not find the second file. wanna created one?" ans
+	if [[ $ans =~  ^([Yy]|[yY][eE][sS]) ]];then
+		touch $2
+		read -p "Wanna add something to its content?" ans
+		if [[ $ans =~ ^([Yy]|[Yy][Ee][Ss]) ]];then
+			cat >> $2
 		else
-			echo "OK!"
-			exit 1 
+			exit 1
 		fi
 	else
-		echo "OKay Not gonna create one for youhhhh"
-			
+		exit 1
 	fi
-fi
 
-#echo "$(dirname $filename)"
+
+elif [ -e $2 ];then
+	echo "Found only second file"
+	echo "Found it at $(realpath $2)"
+	echo "Its content: "
+	cat $1
+	read -p "Wanna create a new file named $1? "
+	if [[ $ans =~  ^([Yy]|[yY][eE][sS]) ]];then
+		touch $1
+		read -p "Wanna add something to its content?" ans
+		if [[ $ans =~ ^([Yy]|[Yy][Ee][Ss]) ]];then
+			cat >> $1
+		else
+			exit 1
+		fi
+	else
+		exit 1
+	fi
+
+fi
