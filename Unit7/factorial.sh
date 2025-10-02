@@ -1,32 +1,24 @@
 #!/bin/bash
 
-if [ $# -ne 1 ]; then
-	echo "Input one number at a time please!."
+if [ $# -ne 1 ];then
+	echo "Input one inp at a time"
 	exit 1
 fi
 
-if ! [[ $1 =~ ^[0-9]+$ ]]; then
-	echo "Please input positive integer numbers only"
+if ! [[ $1 =~ ^[0-9]+$ ]];then
+	echo "Input a pos integer only"
 	exit 1
 fi
 
-filename=$1
-factorial(){
-	number="${@:1}"
-	vessel=$number
-	answer=1
-	#echo "$number"
-	
-	for ((i=0 ; i< $vessel; i++));
-	do
-		answer=$((answer * number))
-		number=$((number -1))
+f(){
+	numb=$1
+	ans=1
+	tumb=$numb
+	for (( i= 0 ; i< $tumb;i++));do
+		ans=$((ans * numb))
+		numb=$((numb-1))
 	done
-
-	echo "$answer"
-	
+	echo "$ans"
 }
 
-factorial $1
-
-
+f $1
