@@ -1,29 +1,29 @@
 #!/bin/bash
 
-
-lcm=0
-num1=$1
-num2=$2
-temp=0
-
-
 if [[ $# -ne 2 ]];then
-	echo "ENTER ATLEAST AND AT MAX ONE INPUT AT A TIME"
+	echo "Input two numbers please."
+fi
+
+if ! [[ $1 =~ ^[0-9]+$ ||  $2 =~ ^[0-9]+$ ]];then
+	echo "Input valid integers"
 	exit 1
 fi
 
-if ! [[ $num1 =~ ^[0-9]+$ && $num2 =~ ^[0-9]+$  ]];
-	then echo "Input only numbers"
-	exit 1;
-fi
-
-while [ $num2 -ne 0 ];
-	do temp=$num2
-	num2=$((num1%num2))
-	num1=$temp
-	
+s_dig=$2
+f_dig=$1
+t1=$f_dig
+t2=$s_dig
+t=0
+#logic
+while [ $s_dig -ne 0 ]
+do
+	t=$s_dig
+	s_dig=$((f_dig % s_dig))
+	f_dig=$t
 done
 
-lcm=$(($1 * $2/ num1))
-echo "GCD:$num1
-LCM:$lcm"
+echo "GCD: $f_dig"
+
+lcm=$(((t1 * t2)/ f_dig))
+
+echo "LCM: $lcm"
