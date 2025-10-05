@@ -1,6 +1,8 @@
+
 #!/bin/bash
 
-cd home/vboxuser/Documents/Linux_Lab/$1
+cd home/vboxuser/Documents/Linux_Lab/Unit7
+
 
 git add .
 
