@@ -1,45 +1,37 @@
 #!/bin/bash
 
+#practice 4
 
-if [[ $# -gt  2 ]];then
-	echo "Input atleast 1 and at max 2 inputs"
+if [[ $# -ne 1 ]];then
+	echo "One filename at a time"
 	exit 1
 fi
 
-if [ -e $1 ] ;then
-	echo "Found it at $(realpath $1)"
-	echo "Its content: "
+if [[ -e $1 ]];then
+	echo "Found at $(realpath $!)"
+	echo "Content:"
 	cat $1
-	read -p " Could not find the second file. wanna created one?" ans
-	if [[ $ans =~  ^([Yy]|[yY][eE][sS]) ]];then
-		touch $2
-		read -p "Wanna add something to its content?" ans
-		if [[ $ans =~ ^([Yy]|[Yy][Ee][Ss]) ]];then
-			cat >> $2
-		else
-			exit 1
-		fi
+	read -p "Wanna add anything to its content?" ans
+	if [[ $ans =~ ^([Yy]|[Yy][Ee][Ss]) ]];then
+		cat >> $1
 	else
 		exit 1
 	fi
 
-
-elif [ -e $2 ];then
-	echo "Found only second file"
-	echo "Found it at $(realpath $2)"
-	echo "Its content: "
-	cat $1
-	read -p "Wanna create a new file named $1? "
-	if [[ $ans =~  ^([Yy]|[yY][eE][sS]) ]];then
+else
+	echo "Not found"
+	read -p "Wanna create one instead?" ans
+	if [[ $ans =~ ([Yy]|[Yy][Ee][Ss]) ]];then
+		echo "CReated"
 		touch $1
-		read -p "Wanna add something to its content?" ans
-		if [[ $ans =~ ^([Yy]|[Yy][Ee][Ss]) ]];then
-			cat >> $1
+		read -p "Wanna add any content?" ans
+		if [[ $ans =~ ([Yy]|[Yy][Ee][Ss]) ]];then
+			cat > $1
 		else
 			exit 1
 		fi
 	else
+		echo "Ok not making one for you"
 		exit 1
 	fi
-
 fi
