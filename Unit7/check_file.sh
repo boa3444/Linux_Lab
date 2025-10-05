@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 if [[ $# -gt  2 ]];then
 	echo "Input atleast 1 and at max 2 inputs"
 	exit 1
