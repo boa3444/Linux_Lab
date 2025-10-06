@@ -4,6 +4,7 @@ if [[ $# -ne 2 ]];then
 	echo "Input two numbers please."
 fi
 
+
 if ! [[ $1 =~ ^[0-9]+$ ||  $2 =~ ^[0-9]+$ ]];then
 	echo "Input valid integers"
 	exit 1
