@@ -14,6 +14,7 @@ f_dig=$1
 t1=$f_dig
 t2=$s_dig
 t=0
+
 #logic
 while [ $s_dig -ne 0 ]
 do
