@@ -17,7 +17,7 @@ sudo apt update
 ### (Linux/macOS only)
 ### 1. `adduser` command
 ``` bash
-sudo add username
+sudo adduser username
 ```
 You will have to set up the password and other prominent stuff in this step.
 ![Application](images/Command13.png)
@@ -169,5 +169,6 @@ Syntax:
     sudo shutdown now        
     sudo shutdown -r now 
 ```
+
 
 
